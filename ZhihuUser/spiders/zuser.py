@@ -12,7 +12,7 @@ class ZuserSpider(scrapy.Spider):
     allowed_domains = ["www.zhihu.com"]
     start_urls = ['http://www.zhihu.com/']
     
-    start_user = 'excited-vczh'
+    start_user = 'zhuxiaobao'
     
     user_url = 'https://www.zhihu.com/api/v4/members/{user}?include={include}'
     user_query = 'allow_message,is_followed,is_following,is_org,is_blocking,employments,answer_count,follower_count,articles_count,gender,badge[?(type=best_answerer)].topics'
